@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/nanodegree_text_view"
+        android:textSize="26sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:background="#FF9800"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="invokeSpotifyStreamer"
+        android:text="@string/spotify_streamer_button"
+        android:textAllCaps="true"
+        android:textColor="#616161"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:background="#FF9800"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="invokeScoresApp"
+        android:text="@string/scores_button"
+        android:textAllCaps="true"
+        android:textColor="#616161"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:background="#FF9800"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="invokeLibraryApp"
+        android:text="@string/library_button"
+        android:textAllCaps="true"
+        android:textColor="#616161"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:background="#FF9800"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="invokeBuildItBigger"
+        android:text="@string/build_it_bigger_button"
+        android:textAllCaps="true"
+        android:textColor="#616161"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:background="#FF9800"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="invokeXyzReader"
+        android:text="@string/xyz_reader_button"
+        android:textAllCaps="true"
+        android:textColor="#616161"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:background="#FF4081"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="invokeCapstoneApp"
+        android:text="@string/capstone_button"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>
